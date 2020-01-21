@@ -1,9 +1,9 @@
 # UIM-3D-display-output-recognition
 
 ## Last robust command lines
-- image `python3 ./main.py --results-dir results --in-image original_samples/sc1.png --show --model ~/down/model_1.h5`
-- camera `python ./main.py --camera 0 --model ~/down/model_1.h5 --results-dir results --show`
-- video `python ./main.py --in-video ~/down/Telegram\ Desktop/VID_20190827_145844_4.mp4 --results-dir results --show --model ~/down/model_1.h5`
+- image `python3 ./main.py --results-dir results --in-image original_samples/sc1.png --show --model neural-network/model_1.h5`
+- camera `python ./main.py --camera 0 --model neural-network/model_1.h5 --results-dir results --show`
+- video `python ./main.py --in-video VID_20190827_145844_4.mp4 --results-dir results --show --model neural-network/model_1.h5`
 
 
 ## Things to tweak
